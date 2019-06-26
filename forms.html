@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms Assignment</title>
+    </head>
+    
+    <body>
+        <section>
+            <h1>Register</h1>
+            <form>
+                <p>
+                    <input type="text" name="First Name" placeholder="First Name" required autofocus>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </p>
+                <p>
+                    <input type="email" name="email" placeholder="email" required>
+                </p>
+                <p>
+                    <input type="tel" name="phone" placeholder="Phone Number" required
+                    pattern="\d{10}" required>
+                </p>
+                <p>
+                    <input type="text" name="age" placeholder="Age" required>
+                </p>
+                <p>
+                    <input type="password" name="password" placeholder="Password" 
+                    minlength="8" required>
+                    <input type="password" name="confirm password" placeholder="Confirm Password" 
+                    minlength="8" required><br>
+                    <span style=font-size:65%;color:gray>Minimum 8 characters</span>
+                </p>
+                <p>
+                    <button type="submit">Sign Up</button>
+                    <span style=font-size:75%;color:gray><a href="login.html">Login</a></span>
+                </p>
+            </form>
+        </section>
+
+        <section>
+            <h1>Login</h1>
+            <form>
+                <p>
+                    <input type="text" name="Username" placeholder="Enter Username" required>
+                </p>
+                <p>
+                    <input type="password" name="password" placeholder="Enter Password" 
+                    minlength="8" required>
+                </p>
+                <p>
+                    <button type="submit">Login</button>
+                </p>
+            </form>
+        </section>
+
+        <section>
+            <h1>Forgot Password</h1>
+            <form>
+                <p>
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </p>
+                <p>
+                    <input type="email" name="email" placeholder="email" required>
+                </p>
+                <p>
+                    <button type="submit">Send Password Reset Email</button>
+                </p>
+            </form>
+        </section>
+    </body>
+</html>
